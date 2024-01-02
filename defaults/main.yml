@@ -2,7 +2,7 @@
 traefik_install_dir: /usr/local/bin
 traefik_bin_file: "{{ traefik_install_dir }}/traefik"
 
-traefik_install_version: 2.2.1
+traefik_install_version: 2.10.7
 traefik_install_arch: linux_amd64
 traefik_binary_url: https://github.com/containous/traefik/releases/download/v{{ traefik_install_version }}/traefik_v{{ traefik_install_version }}_{{ traefik_install_arch }}.tar.gz
 traefik_checksum: sha256:04139683e0cd6fc4e98eae9d469490d1a85074a0d810f640296f81991763657c
